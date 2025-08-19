@@ -1,12 +1,17 @@
 # Exno.7-Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
 
-# Date:
-# Register no.
+# Date:19/08/2025
+# Register no.212223060291
 # Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
 
-#AI Tools Required: 
+# AI Tools Required: 
+```
+ChatGPT (OpenAI GPT)
 
+(Optional) LangChain Framework
 
+(Optional) Hugging Face Transformers
+```
 # Explanation: 
 Prompt:
 "Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
@@ -30,11 +35,41 @@ o Notify user of overlapping appointments or free time slots.
 o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
 o Adapt suggestions based on past user preferences and responses.
 
+# Expected Output:
+```
+Example LLM Response (Personal Productivity Assistant Features):
 
+Daily Task Manager:
 
+Accept tasks in natural language (e.g., “Remind me to call mom at 6 PM”).
+
+Organize tasks by priority and deadline.
+
+Provide daily summaries and pending tasks.
+
+Smart Scheduler:
+
+Schedule events and set reminders using contextual understanding.
+
+Detect overlapping appointments.
+
+Suggest free time slots.
+
+Wellness Tips Generator:
+
+Suggest hydration reminders, exercise breaks, posture alerts.
+
+Adapt wellness tips to user preferences & routines.
+
+General Query Assistant:
+
+Answer factual or conceptual questions.
+
+Provide recommendations (study tips, productivity hacks).
+```
 # Result: 
 The lab exercise resulted in the creation of a prototype concept for a personal assistant powered by large language models. Students were able to:
- Understand how to tailor LLM prompts to real-life applications.
- Foster creativity by designing features suited to their personal or academic lives.
- Learn prompt engineering techniques for optimal interaction with AI tools.
- Experience the versatility and utility of generative AI in solving everyday problems.
+Understand how to tailor LLM prompts to real-life applications.
+Foster creativity by designing features suited to their personal or academic lives.
+Learn prompt engineering techniques for optimal interaction with AI tools.
+Experience the versatility and utility of generative AI in solving everyday problems.
