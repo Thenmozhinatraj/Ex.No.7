@@ -1,75 +1,166 @@
-# Exno.7-Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
+# **Ex. No. 7 – Develop a Prompt-Based Application Tailored to Personal Needs**
 
-# Date:19/08/2025
-# Register no.212223060291
-# Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
+# **Date:** 04/11/2025
 
-# AI Tools Required: 
-```
-ChatGPT (OpenAI GPT)
+# **Register No.:** 212223060291
 
-(Optional) LangChain Framework
+---
 
-(Optional) Hugging Face Transformers
-```
-# Explanation: 
-Prompt:
-"Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
-Procedure:
-1. Define the core requirements of a personal productivity assistant.
-2. Identify and construct appropriate prompts for each task using an LLM (e.g., ChatGPT).
-3. Simulate natural user interaction through a simple interface or command-line system.
-4. Collect feedback or inputs from users and adapt responses accordingly.
-5. (Optional) Integrate basic memory to simulate preference adaptation.
-EXPECTED OUTPUT: - (attached the drive link)
-Output (Example Response by LLM):
-Personal Productivity Assistant Features:
-1. Daily Task Manager:
-o Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
-o Organize tasks by priority and deadline.
-o Provide daily summaries and pending items.
-2. Smart Scheduler:
-o Schedule events and set reminders using contextual understanding.
-o Notify user of overlapping appointments or free time slots.
-3. Wellness Tips Generator:
-o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
-o Adapt suggestions based on past user preferences and responses.
+### **Aim:**
 
-# Expected Output:
-```
-Example LLM Response (Personal Productivity Assistant Features):
+To develop a prompt-based application using **Lovable AI** — demonstrating how to create a personalized **Task Management App** that organizes daily tasks, manages reminders, and tracks progress using structured and context-aware prompt design.
 
-Daily Task Manager:
+---
 
-Accept tasks in natural language (e.g., “Remind me to call mom at 6 PM”).
+### **Introduction**
 
-Organize tasks by priority and deadline.
+This report presents the implementation and outcomes of the lab exercise (Ex. No. 7) focused on designing a **prompt-based Task Management Application** using **Lovable AI**, a no-code AI app creation platform.
+The aim was to explore **prompt engineering techniques** to transform a general-purpose language model into a **smart personal assistant** capable of managing tasks, categorizing priorities, and scheduling reminders naturally through conversation.
 
-Provide daily summaries and pending tasks.
+This exercise helps bridge the gap between theoretical knowledge of LLMs and their **practical problem-solving applications**. By tailoring the model’s responses to specific personal requirements—such as productivity tracking and motivation—the project enhances creativity and demonstrates the power of structured prompting in real-world scenarios.
 
-Smart Scheduler:
+---
 
-Schedule events and set reminders using contextual understanding.
+### **AI Tools Required**
 
-Detect overlapping appointments.
+| **Tool Category**        | **Specific Tool (Example)**     | **Requirement Details**                                                        |
+| :----------------------- | :------------------------------ | :----------------------------------------------------------------------------- |
+| **Primary LLM Platform** | **Lovable AI (OpenAI-based)**   | Used to design and deploy the Task Management App with a custom system prompt. |
+| **Interface**            | **Lovable AI App Builder**      | Enables drag-and-drop app design integrated with AI responses.                 |
+| **Supporting Tools**     | **ChatGPT / Gemini (Optional)** | For refining prompt logic and testing multi-turn dialogue flow.                |
+| **Documentation**        | **Google Docs / MS Word**       | For recording procedures, outputs, and final report preparation.               |
 
-Suggest free time slots.
+---
 
-Wellness Tips Generator:
+### **Explanation**
 
-Suggest hydration reminders, exercise breaks, posture alerts.
+The project centers on designing a **Smart Task Manager Assistant (STMA)** within Lovable AI.
+Through **system-level prompts**, the assistant behaves as an intelligent planner capable of understanding commands such as *“Add meeting at 3 PM,”* *“Show today’s tasks,”* or *“Remind me to submit the report.”*
 
-Adapt wellness tips to user preferences & routines.
+The assistant is not a conventional checklist app—it adapts its tone, remembers task context, and provides productivity feedback.
 
-General Query Assistant:
+---
 
-Answer factual or conceptual questions.
+#### **Prompt Design Strategy**
 
-Provide recommendations (study tips, productivity hacks).
-```
-# Result: 
-The lab exercise resulted in the creation of a prototype concept for a personal assistant powered by large language models. Students were able to:
-Understand how to tailor LLM prompts to real-life applications.
-Foster creativity by designing features suited to their personal or academic lives.
-Learn prompt engineering techniques for optimal interaction with AI tools.
-Experience the versatility and utility of generative AI in solving everyday problems.
+The prompt was structured into three logical layers:
+
+1. **Role Definition:** Assign the AI the persona of a *“Smart Productivity Assistant.”*
+2. **Functional Scope:** Define its capabilities (task creation, scheduling, reminders, progress tracking).
+3. **Response Format and Tone:** Ensure friendly, professional communication and bullet-style summaries.
+
+---
+
+#### **The Master Prompt Used in Lovable AI:**
+
+> “You are **SmartTask**, a helpful and organized task management assistant.
+> You help users create, prioritize, and track their tasks.
+> Each response must include:
+>
+> * A friendly acknowledgment
+> * A structured list of active tasks with deadlines
+> * Daily productivity tips or reminders.
+>   Maintain a concise, motivating tone and adapt to user’s ongoing schedule.”
+
+---
+
+### **Progression from Simple to Advanced Prompting**
+
+| **Level**        | **Prompt Type**         | **Example**                                                                     | **Impact on Output**                                                      |
+| :--------------- | :---------------------- | :------------------------------------------------------------------------------ | :------------------------------------------------------------------------ |
+| **Simple**       | Command                 | “Add a meeting tomorrow.”                                                       | Adds a basic entry, no categorization or time tracking.                   |
+| **Intermediate** | Contextual              | “Add a high-priority project review meeting at 10 AM tomorrow.”                 | Captures time, category, and urgency level.                               |
+| **Advanced**     | Structured & Role-Based | “Show my pending work tasks and schedule a reminder for the report submission.” | Generates a full-day summary with priorities and reminders automatically. |
+
+---
+
+### **Procedure**
+
+1. **Open Lovable AI platform.**
+2. **Select “Create New App.”**
+3. Assign a **system prompt** (Master Prompt) to define AI’s role.
+4. Configure **UI sections**: Task List, Add Task, Reminders, Progress Overview.
+5. Add **input fields and buttons** for user commands (e.g., *Add Task*, *Mark as Done*).
+6. Test the assistant by giving sample prompts.
+7. Observe and document outputs for simple and advanced prompt cases.
+
+---
+
+### **Expected Output and Analysis**
+
+#### **Output Screens**
+
+**Home Page:**
+<img width="1323" height="922" alt="image" src="https://github.com/user-attachments/assets/e844e254-655e-4726-bb65-c6616f88f560" />
+<img width="1294" height="911" alt="image" src="https://github.com/user-attachments/assets/8f3bca43-a876-4120-8eff-c973ec9f6d0f" />
+
+
+**Task Entry Page:**
+<img width="1301" height="874" alt="image" src="https://github.com/user-attachments/assets/a2d8f3f2-f6c2-4e15-b14b-635b426b3464" />
+<img width="1293" height="438" alt="image" src="https://github.com/user-attachments/assets/1415824b-09c6-4575-b270-69ad3ea981b9" />
+
+
+**Progress Dashboard:**
+<img width="1295" height="922" alt="image" src="https://github.com/user-attachments/assets/50697389-8641-4064-be93-7b449a88460c" />
+
+
+---
+
+#### **Detailed Feature Breakdown:**
+
+* **Task Manager:** Enables adding tasks with deadlines and categories (Work, Study, Personal).
+* **Smart Scheduler:** Detects time conflicts and suggests alternate slots.
+* **Progress Tracker:** Calculates daily completion percentage and highlights overdue tasks.
+* **Motivational Feedback:** Provides short encouragement messages like *“You’ve completed 80% of your goals today — keep going!”*
+
+---
+
+### **Prompt Engineering Techniques Utilized**
+
+* **Role-based Prompting:** Gave SmartTask a clear identity and purpose.
+* **Context Retention:** The assistant remembers recent tasks and deadlines in session memory.
+* **Constraint-based Prompting:** Used phrases like “summarize briefly” and “categorize by priority” to enforce structured responses.
+* **Iterative Refinement:** Adjusted prompts to improve clarity and prevent generic replies.
+* **Few-shot Guidance:** Demonstrated output formats in the initial setup for consistent replies.
+
+---
+
+### **Example Interactions**
+
+**User:** “Add ‘Complete IoT project report’ as high priority due tomorrow.”
+**SmartTask:**
+✅ Task Added: *Complete IoT project report*
+📅 Due: Tomorrow (High Priority)
+💡 Tip: Block 2 hours in the evening to finish without rush.
+
+---
+
+**User:** “Show today’s schedule.”
+**SmartTask:**
+🗓️ **Today’s Tasks:**
+
+* [✔] Attend embedded systems lecture – 9 AM
+* [ ] Submit IoT report – Due 5 PM
+* [ ] Call teammate for review – 6 PM
+  ⚡ *Productivity Tip:* Group similar tasks together for better focus.
+
+---
+
+### **Conclusion**
+
+The prompt-based Task Management App successfully demonstrated the potential of **Lovable AI** to build intelligent productivity assistants without traditional coding. By using structured and adaptive prompts, the assistant could understand natural language commands, generate organized task lists, and interact conversationally.
+
+This experiment highlights that **LLMs can be transformed into functional personal assistants** through precise prompt engineering, improving productivity and user engagement.
+
+---
+
+### **Result:**
+
+The exercise was successfully completed.
+Students were able to:
+
+* Create a working prototype of a **Task Management App** using **Lovable AI**.
+* Understand and apply **prompt engineering** techniques effectively.
+* Customize the app for real-world use (task organization, scheduling, reminders).
+* Demonstrate creativity in adapting AI capabilities for daily personal needs.
+
